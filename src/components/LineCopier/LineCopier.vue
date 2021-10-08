@@ -1,6 +1,6 @@
 <template>
   <div class="repeater">
-    <h1>Line Repeater</h1>
+    <h2>Line Repeater</h2>
     <label>
       Type a sentence below using [[i]] in the sentene to repeat with the loop.
     </label>
@@ -33,7 +33,7 @@
 
     <div class="repeater__outputs stack">
       <label
-        >Copy<button class="copyBtn" @click="copyResult">Copy</button>
+        >Result<button class="copyBtn" @click="copyResult">Copy</button>
       </label>
       <textarea class="repeater__outputs--result-box" v-model="result" />
     </div>
