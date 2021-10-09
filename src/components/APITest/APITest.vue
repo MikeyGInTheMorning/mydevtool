@@ -8,8 +8,8 @@
     
       <div class="repeater__inputs stack">
         <label v-on:click="resetReplaceText">API Address</label>
-        <button v-on:click="getData">Get Data</button>
         <input v-model="apiString" />
+        <button v-on:click="getData" class="executeBtn">Get Data</button>
       </div>
     </div>
 
@@ -66,6 +66,10 @@ export default {
   margin-left: 5rem;
 }
 
+.executeBtn{
+  width: 10rem;
+}
+
 .copyBtn {
   color: lightgreen;
   border: none;
@@ -89,7 +93,6 @@ export default {
 
 .repeater {
   flex: 1;
-  //background: grey;
 
   &__outputs {
     &--result-box {
