@@ -1,18 +1,21 @@
 <template>
   <Heading></Heading>
   <LineCopier></LineCopier>
+  <APITest></APITest>
 </template>
 
 <script>
 import LineCopier from './components/LineCopier/LineCopier.vue'
 import Heading from './components/Heading/Heading.vue'
+import APITest from './components/APITest/APITest.vue'
 
 export default {
   name: 'App',
   components: {
     LineCopier,
-    Heading
-  }
+    Heading, 
+    APITest
+  },
 }
 </script>
 

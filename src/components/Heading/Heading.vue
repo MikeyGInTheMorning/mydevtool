@@ -18,7 +18,7 @@ export default {
     MottoLine
   },
   data: () => ({
-    mottoData: "Making Life Easier"
+    mottoData: "Making\nMy Life\nEasier"
   })
 };
 </script>
